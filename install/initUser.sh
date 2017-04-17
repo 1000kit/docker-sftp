@@ -26,7 +26,7 @@ for userData in "${users[@]}"; do
     fi
    
     #echo "Add User $uid $user"
-    useradd -u $uid $user -d /home/${user}
+    useradd -l -u $uid $user -d /home/${user}
 
     #echo "change passwd: $user:$pass"
     if [ "$encrypted" == "yes" ]; then
