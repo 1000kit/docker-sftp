@@ -22,6 +22,7 @@ start docker:
 try to connect with:
 ~~~
   $ sftp -P 2222 tkitftp@localhost
+  $ sftp -o PubkeyAuthentication=no -P 2222 tkitftp@localhost
 ~~~
 
 

@@ -2,9 +2,9 @@ FROM 1000kit/base
 
 MAINTAINER 1000kit <docker@1000kit.org>
 
-LABEL Vendor="1000kit" \
-      License=GPLv3 \
-      Version=1.0.0
+LABEL org.1000kit.vendor="1000kit" \
+      org.1000kit.license=GPLv3 \
+      org.1000kit.version=1.0.0
 
 
 # install User
